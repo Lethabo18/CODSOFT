@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    min-height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: rgb(136, 154, 179);
+    padding: 20px;
+    margin: 10px;
+   
+}
+
+.container {
+ box-shadow: 0 0 15px rgb(143, 179, 201);
+}
+
+.display input{
+    outline: 0;
+    border: 0;
+    width: 90%;
+    background: transparent;
+    color: rgb(250, 253, 255);
+    text-align: right;
+    font-size: 30px;
+    margin: 10px;
+}
+
+button {
+    height: 60px;
+    width: 70px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+button:active{
+    background: black;
+    color: rgb(179, 205, 245);
+}
+
+.opr{
+    background: rgb(235, 86, 110);
+    color: black;
+}
+
+#eqbtn {
+    background: purple;
+}
+
